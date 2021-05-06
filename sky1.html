@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="card.css">
+
+
+</head>
+
+<body>
+	
+	<div class="felx1">
+		
+		<div class="imgc">
+
+
+			<center>
+				<div class="img-container">
+					<img id="imageBox" class='ismg' src="img1.jpg">
+				</div>
+				<br>
+				<div >
+					<div class="product-small-img">
+
+						<img src="img1.jpg" class='downimage' onclick="myFunction(this)">
+						<img src="img2.jpg" class='downimage' onclick="myFunction(this)">
+						<img src="img5.jpg" class='downimage' onclick="myFunction(this)">
+						<img src="img4.jpg" class='downimage' onclick="myFunction(this)">
+						<img src="img6.jpg" class='downimage' onclick="myFunction(this)">
+					</div>
+				</div>
+			</center>
+		
+		</div>
+		
+		<div class='divnext'>
+			<h1>Upholstered Sofa</h1>
+
+			<h6>Kyara Upholstered Standard Bed by Zipcode Design</h6>
+			<p>Anchor your living room in sophisticated style and impeccable comfort with single addition. Perfectly balancing wood accents with fabric upholstery.
+			</p><br><br>
+			<div style="display: inline;"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+			</div>
+			<p><span style="color: LightSeaGreen;">(5.0)</span> review based on 250</p>
+			<a href="">Submit Review</a><br><br>
+			
+			<h1>$567</h1>
+			
+			<i class="fa fa-clock"></i>
+			<p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Dispatched in 7 working days</p>
+			<form>
+				<input style="color: white; background-color: black; cursor: pointer; padding: 2% 4%;" type="button"
+					name="cart" value="ADD TO CART" /> <input style="padding: 2% 4%; cursor: pointer;" type="button"
+					name="wishlist" value="ADD TO WISHLIST" />
+			</form>
+
+		</div>
+		<!-- </div> -->
+		<!-- </center> -->
+
+	</div>
+
+
+
+	<br>
+
+		<table width="100%">
+			<tr >
+				<td >
+					
+				<h4 ><i class="fa fa-credit-card" style="padding-right: 1.5%;"></i>Secure&nbsp;payment </h4>
+						<p style="padding-left: 4%;">Don't worry, <br>your money is in secure places</p>
+				</td>
+				<td> 
+					<h4><i class="fa fa-truck" style="padding-right: 1.5%;"></i>Fast&nbsp;&&nbsp;free&nbsp;delivery</h4>
+						<p style="padding-left: 3.5%;">Home delivery $15.<br> For free delivery order over $259</p>
+				</td>
+				<td>
+				<h4><i class="fa fa-cubes" style="padding-right: 1.5%;"></i>Return&nbsp;policy</h4>
+				<p style="padding-left: 10%;">No hassle return policy.</p>
+				</td>
+			</tr>
+		</table> 
+
+
+
+	<script>
+		function myFunction(smallImg) {
+			var fullImg = document.getElementById("imageBox");
+			fullImg.src = smallImg.src;
+		}
+
+
+	</script>
+
+</body>
+
+</html>
